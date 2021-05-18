@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-side form validation using Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="" class="form"  onsubmit="return validate()">
+            <input type="text" id="username" placeholder="username"><br>
+            <p style="color: red;" id="user_error"></p>
+            <input type="password" name="" id="password" placeholder="password"><br>
+            <p style="color: red;" id="pass_error"></p>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
