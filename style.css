@@ -36,7 +36,7 @@ h2{
 }
 input{
      margin: .5rem;
-     padding: 5px;
+     padding: .7rem;
      font-size: large;
      outline: none;
      border: none;
@@ -60,4 +60,10 @@ p{
      */
      font-family: cursive;
     font-size: large;
+}
+@media (max-width:545px) {
+    .container{
+        margin: 2px auto;
+        width: 315px;
+    }
 }
